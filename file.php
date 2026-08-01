@@ -191,7 +191,7 @@ if (isset($_POST['saveRename'])) {
             <input type="file" name="upload">
             <input type="submit" value="upload">
         </form>
-        <!-- path navigator -->
+        
         <div class="path-bar">
             <span class="path-label">cwd:</span>
             <?php
@@ -206,7 +206,7 @@ if (isset($_POST['saveRename'])) {
         </div>
     </div>
     <div style="text-align:right; white-space:nowrap;">
-        server ip: <?php echo htmlspecialchars($server_ip, ENT_QUOTES, 'UTF-8'); ?>
+        ip: <?php echo htmlspecialchars($server_ip, ENT_QUOTES, 'UTF-8'); ?>
     </div>
 </div>
 <hr>
